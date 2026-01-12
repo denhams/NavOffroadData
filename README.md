@@ -1,3 +1,0 @@
-- US land use GeoJSON files for the western states.
-- US wilderness areas GeoJSON files.
-- Different types of GIS test files, including TileJSON examples.
