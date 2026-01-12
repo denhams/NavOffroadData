@@ -1,0 +1,16 @@
+{
+  "tilejson": "2.2.0",
+  "version": "1.0.0",
+  "scheme": "xyz",
+  "tiles": [
+    "http://astrogeology.usgs.gov/titiler/cog/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?url=https%3A%2F%2Fprd-tnm.s3.amazonaws.com%2FStagedProducts%2FMaps%2FHistoricalTopo%2FGeoTIFF%2FNV%2FNV_Ely_321587_1952_125000_geo.tif"
+  ],
+  "minzoom": 8,
+  "maxzoom": 13,
+  "bounds": [
+    -115,
+    39,
+    -114.5,
+    39.5
+  ]
+}
