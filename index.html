@@ -1,79 +1,177 @@
-<!doctype html><html><body>
+<!doctype html><html lang="en">
+  <head>
+    <title>NavOffroad Data</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=0.5'>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        font: -apple-system-body;
+      }
+
+      table {
+          margin: 1em 0;
+      }
+
+      h1 {
+        font: -apple-system-headline;
+      }
+
+      h2 {
+        font: -apple-system-subheadline;
+        font-weight: bold;
+      }
+
+      h3 {
+        font: -apple-system-subheadline;
+      }
+
+      footer {
+        font: -apple-system-footnote;
+      }
+
+      .badge {
+        background-color: rgb(19, 107, 254);
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      @media (prefers-color-scheme:dark) {
+        path {
+          fill: #ffffff
+        }
+      }
+
+      html,
+      body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      code {
+        font-size: 0.85em;
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+        
+      #red {
+          color:rgb(255,0,0);
+      }
+    </style>
+  </head>
+
+<body>
+      <p>Table of contents</p>
+      <ul style="list-style-position: outside;">
+        <li>
+          <a href="#section-1">US land use GeoJSON files for the western states</a>
+        </li>
+        <li>
+          <a href="#section-2">US wilderness areas GeoJSON files</a>
+        </li>
+        <li>
+          <a href="#section-3">Tile Map Services</a>
+        </li>
+        <li>
+          <a href="#section-4">Different types of GIS test files</a>
+        </li>
+      </ul>
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>. This dataset is a compilation derived from public-domain sources. The underlying source data remain public domain. This license applies only to the compilation, formatting, and curation.<br><br>
+		  &#169; Stephen Denham, 2026 - <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+<h1 id="section-1">US land use GeoJSON files for the western states</h1>
+<p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a></p>
 <ul>
-	<li>US land use GeoJSON files for the western states.</li>
-	<li>US wilderness areas GeoJSON files.</li>
-	<li>Different types of GIS test files, including TileJSON examples.</li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20AZ.geojson">Land Use AZ.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-N.geojson">Land Use CA North-N.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-S.geojson">Land Use CA North-S.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-N.geojson">Land Use CA South-N.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-S.geojson">Land Use CA South-S.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CO%20North.geojson">Land Use CO North.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20CO%20South.geojson">Land Use CO South.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20ID.geojson">Land Use ID.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20MT.geojson">Land Use MT.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20NM.geojson">Land Use NM.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20NV.geojson">Land Use NV.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20OR%20North.geojson">Land Use OR North.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20OR%20South.geojson">Land Use OR South.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20UT.geojson">Land Use UT.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20WA.geojson">Land Use WA.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20North.geojson">Land Use WY North.geojson</a></li>
+<li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20South.geojson">Land Use WY South.geojson</a></li>
 </ul>
+<h1 id="section-2">US wilderness areas GeoJSON files</h1>
+<p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a></p>
 <ul>
-<li><a href="navoffroad/Land Use/Land Use AZ.geojson">navoffroad/Land Use/Land Use AZ.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CA North-N.geojson">navoffroad/Land Use/Land Use CA North-N.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CA North-S.geojson">navoffroad/Land Use/Land Use CA North-S.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CA South-N.geojson">navoffroad/Land Use/Land Use CA South-N.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CA South-S.geojson">navoffroad/Land Use/Land Use CA South-S.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CO North.geojson">navoffroad/Land Use/Land Use CO North.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use CO South.geojson">navoffroad/Land Use/Land Use CO South.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use ID.geojson">navoffroad/Land Use/Land Use ID.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use MT.geojson">navoffroad/Land Use/Land Use MT.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use NM.geojson">navoffroad/Land Use/Land Use NM.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use NV.geojson">navoffroad/Land Use/Land Use NV.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use OR North.geojson">navoffroad/Land Use/Land Use OR North.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use OR South.geojson">navoffroad/Land Use/Land Use OR South.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use UT.geojson">navoffroad/Land Use/Land Use UT.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use WA.geojson">navoffroad/Land Use/Land Use WA.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use WY North.geojson">navoffroad/Land Use/Land Use WY North.geojson</a></li>
-<li><a href="navoffroad/Land Use/Land Use WY South.geojson">navoffroad/Land Use/Land Use WY South.geojson</a></li>
-<li><a href="navoffroad/Tile Map Services/Open Street Map.json">navoffroad/Tile Map Services/Open Street Map.json</a></li>
-<li><a href="navoffroad/Tile Map Services/US Topo.json">navoffroad/Tile Map Services/US Topo.json</a></li>
-<li><a href="navoffroad/Wilderness/Alabama Wildernesses.geojson">navoffroad/Wilderness/Alabama Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Alaska Wildernesses.geojson">navoffroad/Wilderness/Alaska Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Arizona Wildernesses.geojson">navoffroad/Wilderness/Arizona Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Arkansas Wildernesses.geojson">navoffroad/Wilderness/Arkansas Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/California Wildernesses.geojson">navoffroad/Wilderness/California Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Colorado Wildernesses.geojson">navoffroad/Wilderness/Colorado Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Florida Wildernesses.geojson">navoffroad/Wilderness/Florida Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Georgia Wildernesses.geojson">navoffroad/Wilderness/Georgia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Hawaii Wildernesses.geojson">navoffroad/Wilderness/Hawaii Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Idaho Wildernesses.geojson">navoffroad/Wilderness/Idaho Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Illinois Wildernesses.geojson">navoffroad/Wilderness/Illinois Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Indiana Wildernesses.geojson">navoffroad/Wilderness/Indiana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Kentucky Wildernesses.geojson">navoffroad/Wilderness/Kentucky Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Louisiana Wildernesses.geojson">navoffroad/Wilderness/Louisiana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Maine Wildernesses.geojson">navoffroad/Wilderness/Maine Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Massachusetts Wildernesses.geojson">navoffroad/Wilderness/Massachusetts Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Michigan Wildernesses.geojson">navoffroad/Wilderness/Michigan Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Minnesota Wildernesses.geojson">navoffroad/Wilderness/Minnesota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Mississippi Wildernesses.geojson">navoffroad/Wilderness/Mississippi Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Missouri Wildernesses.geojson">navoffroad/Wilderness/Missouri Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Montana Wildernesses.geojson">navoffroad/Wilderness/Montana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Nebraska Wildernesses.geojson">navoffroad/Wilderness/Nebraska Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Nevada Wildernesses.geojson">navoffroad/Wilderness/Nevada Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New Hampshire Wildernesses.geojson">navoffroad/Wilderness/New Hampshire Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New Jersey Wildernesses.geojson">navoffroad/Wilderness/New Jersey Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New Mexico Wildernesses.geojson">navoffroad/Wilderness/New Mexico Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New York Wildernesses.geojson">navoffroad/Wilderness/New York Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/North Carolina Wildernesses.geojson">navoffroad/Wilderness/North Carolina Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/North Dakota Wildernesses.geojson">navoffroad/Wilderness/North Dakota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Ohio Wildernesses.geojson">navoffroad/Wilderness/Ohio Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Oklahoma Wildernesses.geojson">navoffroad/Wilderness/Oklahoma Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Oregon Wildernesses.geojson">navoffroad/Wilderness/Oregon Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Pennsylvania Wildernesses.geojson">navoffroad/Wilderness/Pennsylvania Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Puerto Rico Wildernesses.geojson">navoffroad/Wilderness/Puerto Rico Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/South Carolina Wildernesses.geojson">navoffroad/Wilderness/South Carolina Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/South Dakota Wildernesses.geojson">navoffroad/Wilderness/South Dakota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Tennessee Wildernesses.geojson">navoffroad/Wilderness/Tennessee Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Texas Wildernesses.geojson">navoffroad/Wilderness/Texas Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Utah Wildernesses.geojson">navoffroad/Wilderness/Utah Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Vermont Wildernesses.geojson">navoffroad/Wilderness/Vermont Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Virginia Wildernesses.geojson">navoffroad/Wilderness/Virginia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Washington Wildernesses.geojson">navoffroad/Wilderness/Washington Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/West Virginia Wildernesses.geojson">navoffroad/Wilderness/West Virginia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Wisconsin Wildernesses.geojson">navoffroad/Wilderness/Wisconsin Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Wyoming Wildernesses.geojson">navoffroad/Wilderness/Wyoming Wildernesses.geojson</a></li>
-<li><a href="testfiles/TestCircle.geojson">testfiles/TestCircle.geojson</a></li>
-<li><a href="testfiles/TestCircle.kml">testfiles/TestCircle.kml</a></li>
-<li><a href="testfiles/TestCOG.tif">testfiles/TestCOG.tif</a></li>
-<li><a href="testfiles/TestOffroadTrails.geojson">testfiles/TestOffroadTrails.geojson</a></li>
-<li><a href="testfiles/TestPoints.gpx">testfiles/TestPoints.gpx</a></li>
-<li><a href="testfiles/TestRoute.gpx">testfiles/TestRoute.gpx</a></li>
-<li><a href="testfiles/TestTileJson.json">testfiles/TestTileJson.json</a></li>
-</ul></body></html>
+<li><a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson">Alabama Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Alaska%20Wildernesses.geojson">Alaska Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Arizona%20Wildernesses.geojson">Arizona Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Arkansas%20Wildernesses.geojson">Arkansas Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/California%20Wildernesses.geojson">California Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Colorado%20Wildernesses.geojson">Colorado Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Florida%20Wildernesses.geojson">Florida Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Georgia%20Wildernesses.geojson">Georgia Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Hawaii%20Wildernesses.geojson">Hawaii Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Idaho%20Wildernesses.geojson">Idaho Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Illinois%20Wildernesses.geojson">Illinois Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Indiana%20Wildernesses.geojson">Indiana Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Kentucky%20Wildernesses.geojson">Kentucky Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Louisiana%20Wildernesses.geojson">Louisiana Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Maine%20Wildernesses.geojson">Maine Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Massachusetts%20Wildernesses.geojson">Massachusetts Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Michigan%20Wildernesses.geojson">Michigan Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Minnesota%20Wildernesses.geojson">Minnesota Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Mississippi%20Wildernesses.geojson">Mississippi Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Missouri%20Wildernesses.geojson">Missouri Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Montana%20Wildernesses.geojson">Montana Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Nebraska%20Wildernesses.geojson">Nebraska Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Nevada%20Wildernesses.geojson">Nevada Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/New%20Hampshire%20Wildernesses.geojson">New Hampshire Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/New%20Jersey%20Wildernesses.geojson">New Jersey Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/New%20Mexico%20Wildernesses.geojson">New Mexico Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/New%20York%20Wildernesses.geojson">New York Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/North%20Carolina%20Wildernesses.geojson">North Carolina Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/North%20Dakota%20Wildernesses.geojson">North Dakota Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Ohio%20Wildernesses.geojson">Ohio Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Oklahoma%20Wildernesses.geojson">Oklahoma Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Oregon%20Wildernesses.geojson">Oregon Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Pennsylvania%20Wildernesses.geojson">Pennsylvania Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Puerto%20Rico%20Wildernesses.geojson">Puerto Rico Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/South%20Carolina%20Wildernesses.geojson">South Carolina Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/South%20Dakota%20Wildernesses.geojson">South Dakota Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Tennessee%20Wildernesses.geojson">Tennessee Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Texas%20Wildernesses.geojson">Texas Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Utah%20Wildernesses.geojson">Utah Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Vermont%20Wildernesses.geojson">Vermont Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Virginia%20Wildernesses.geojson">Virginia Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Washington%20Wildernesses.geojson">Washington Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/West%20Virginia%20Wildernesses.geojson">West Virginia Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson">Wisconsin Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson">Wyoming Wildernesses.geojson</a></li>
+</ul>
+<h1 id="section-3">Tile Map Services</h1>
+<p>Attribution: <a href="https://www.usgs.gov/programs/national-geospatial-program/us-topo-maps-america">US Topo, U.S. Geological Survey</a> and
+	<a href="https://www.openstreetmap.org/">OpenStreetMap</a>
+</p>
+<ul>
+<li><a href="navoffroad/Tile%20Map%20Services/Open%20Street%20Map.json">Open Street Map.json</a></li>
+<li><a href="navoffroad/Tile%20Map%20Services/US%20Topo.json">US Topo.json</a></li>
+</ul>
+<h1 id="section-4">Different types of GIS test files</h1>
+<ul>
+<li><a href="testfiles/TestCircle.geojson">TestCircle.geojson</a></li>
+<li><a href="testfiles/TestCircle.kml">TestCircle.kml</a></li>
+<li><a href="testfiles/TestCOG.tif">TestCOG.tif</a></li>
+<li><a href="testfiles/TestOffroadTrails.geojson">TestOffroadTrails.geojson</a></li>
+<li><a href="testfiles/TestPoints.gpx">TestPoints.gpx</a></li>
+<li><a href="testfiles/TestRoute.gpx">TestRoute.gpx</a></li>
+<li><a href="testfiles/TestTileJson.json">TestTileJson.json</a></li>
+</ul>
+</body>
+</html>
