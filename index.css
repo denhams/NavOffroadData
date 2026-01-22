@@ -1,0 +1,42 @@
+
+    /* unvisited link */
+    a:link {
+      color: blue;
+      text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+      color: blue;
+      text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: blue;
+      text-decoration: none;
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+      text-decoration: none;
+    }
+
+    body
+    {
+       font-family: Arial;
+    }
+
+    :root {
+      color-scheme: light dark;
+    }
+
+    @media (prefers-color-scheme:dark) {
+    }
+
+	/* no horizontal scroll */
+	html, body {
+	  max-width: 100%;
+	  overflow-x: hidden;
+	}
