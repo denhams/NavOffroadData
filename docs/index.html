@@ -17,20 +17,29 @@
 </head>
 <body>
 	  <a href="https://www.navoffroad.com/"><img id="navoffroadIcon" src="navoffroad.png" alt="NavOffroad" style="width:128px;height:128px;border-radius: 5%;"></a>
-	  <p>A collection of GIS data files. Use them with the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or many other GIS applications.</p>
+	  <p>A collection of GIS data files and sources. Use them with the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or many other GIS applications.</p>
       <p>Table of contents</p>
       <ul style="list-style-position: outside;">
         <li>
-          <a href="#section-1">US land use GeoJSON files for the western states</a>
+          <a href="#gpxkml">GPX and KML files</a>
+         </li>
+        <li>
+          <a href="#uslanduse">US land use GeoJSON files for the western states</a>
         </li>
         <li>
-          <a href="#section-2">US wilderness areas GeoJSON files</a>
+          <a href="#uswilderness">US wilderness areas GeoJSON files</a>
         </li>
         <li>
-          <a href="#section-3">Tile Map Services</a>
+          <a href="#ushistorical">US historical maps</a>
         </li>
         <li>
-          <a href="#section-4">Different types of GIS test files</a>
+          <a href="#usforestservice">US Forest Service</a>
+        </li>
+        <li>
+          <a href="#tms">Tile Map Services</a>
+        </li>
+        <li>
+          <a href="#gis">Different types of GIS test files</a>
         </li>
       </ul>
       <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>. This dataset is a compilation derived from public-domain sources. The underlying source data remain public domain. This license applies only to the compilation, formatting, and curation.<br><br>
@@ -38,7 +47,11 @@
           document.write(new Date().getFullYear());
         </script>
       </p>
-<h1 id="section-1">US land use GeoJSON files for the western states</h1>
+<h1 id="gpxkml">GPX and KML files</h1>
+<p>
+GPX and KML files are widely available online through mapping websites, hiking and off-road communities, and shared trail databases. Keep in mind that the accuracy and quality of these files can vary, so it's best to review them before use.
+</p>
+<h1 id="uslanduse">US land use GeoJSON files for the western states</h1>
 <p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a></p>
 <ul>
 <li><a href="navoffroad/Land%20Use/Land%20Use%20AZ.geojson">Land Use AZ.geojson</a></li>
@@ -59,7 +72,7 @@
 <li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20North.geojson">Land Use WY North.geojson</a></li>
 <li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20South.geojson">Land Use WY South.geojson</a></li>
 </ul>
-<h1 id="section-2">US wilderness areas GeoJSON files</h1>
+<h1 id="uswilderness">US wilderness areas GeoJSON files</h1>
 <p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a></p>
 <ul>
 <li><a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson">Alabama Wildernesses.geojson</a></li>
@@ -108,7 +121,11 @@
 <li><a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson">Wisconsin Wildernesses.geojson</a></li>
 <li><a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson">Wyoming Wildernesses.geojson</a></li>
 </ul>
-<h1 id="section-3">Tile Map Services</h1>
+<h1 id="ushistorical">US historical maps</h1>
+<p>You can get historical maps from the <a href="https://livingatlas.arcgis.com/topomapexplorer">Topo Map Explorer</a>. Click the map at your desired location and then select one of the maps displayed in the left sidebar. <i>Right</i> click on the download button and the copy the link. Use the link in the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or other GIS applications.</p>
+<h1 id="usforestservice">US Forest Service</h1>
+<p>You can download GeoJSON files to import from the categories on the <a href="https://data-usfs.hub.arcgis.com">U.S. Forest Service - Geospatial Data Discovery</a> web page. Use the filters to select your area and the data you need (e.g., name and latitude/longitude). Select the download button and choose the GeoJSON option.</p>
+<h1 id="tms">Tile Map Services</h1>
 <p>Attribution: <a href="https://www.usgs.gov/programs/national-geospatial-program/us-topo-maps-america">US Topo, U.S. Geological Survey</a> and
 	<a href="https://www.openstreetmap.org/">OpenStreetMap</a>
 </p>
@@ -116,7 +133,7 @@
 <li><a href="navoffroad/Tile%20Map%20Services/Open%20Street%20Map.json">Open Street Map.json</a></li>
 <li><a href="navoffroad/Tile%20Map%20Services/US%20Topo.json">US Topo.json</a></li>
 </ul>
-<h1 id="section-4">Different types of GIS test files</h1>
+<h1 id="gis">Different types of GIS test files</h1>
 <ul>
 <li><a href="testfiles/TestCircle.geojson">TestCircle.geojson</a></li>
 <li><a href="testfiles/TestCircle.kml">TestCircle.kml</a></li>
