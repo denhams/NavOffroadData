@@ -2,7 +2,7 @@
 <head>
  <title>NavOffroad Data</title>
  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=0.5'>
- <meta name="theme-color" content="#669C36" />
+ <meta name="theme-color" content="#669C36">
  <link rel="stylesheet" href="index.css">
  <link rel="shortcut icon" href="/favicon.ico">
  <link rel="icon" type="image/png" href="/navoffroad.png">
@@ -59,8 +59,36 @@
 GPX and KML files are widely available online through mapping websites, hiking and off-road communities, and shared trail databases. Keep in mind that the accuracy and quality of these files can vary, so it's best to review them before use.
 </p>
 <h1 id="uslanduse">US land use files for the western states</h1>
+<p>These data provide color-coded land use for the western states in both GeoJSON and PMTiles format.</p>
+<details>
+<summary>Show color table</summary>
+<br>
+<table>
+   <tbody><tr><td style="background-color:rgb(115,38,1); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Department of Defense</td></tr>
+   <tr><td style="background-color:rgb(242,220,146); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Bureau of Land Management</td></tr>
+   <tr><td style="background-color:rgb(112,161,113); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">National Park Service</td></tr>
+   <tr><td style="background-color:rgb(137,189,43); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Forest Service</td></tr>
+   <tr><td style="background-color:rgb(99,221,254); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Army Corps of Engineers</td></tr>
+   <tr><td style="background-color:rgb(173,87,101); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Fish and Wildlife Service</td></tr>
+   <tr><td style="background-color:rgb(0,92,231); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Bureau of Reclamation</td></tr>
+   <tr><td style="background-color:rgb(255,66,9); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">National Resource Conservation Service</td></tr>
+   <tr><td style="background-color:rgb(212,228,244); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Department of Energy</td></tr>
+   <tr><td style="background-color:rgb(198,245,213); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">American Indian Lands</td></tr>
+   <tr><td style="background-color:rgb(230,71,72); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Non-Governmental Organization</td></tr>
+   <tr><td style="background-color:rgb(171,153,190); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Other State</td></tr>
+   <tr><td style="background-color:rgb(163,146,223); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">State Fish and Wildlife</td></tr>
+   <tr><td style="background-color:rgb(201,139,171); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">State Department of Land</td></tr>
+   <tr><td style="background-color:rgb(155,170,223); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">State Parks and Recreation</td></tr>
+   <tr><td style="background-color:rgb(184,217,88); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">County, Regional Agency Land</td></tr>
+   <tr><td style="background-color:rgb(187,196,89); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">City Land</td></tr>
+   <tr><td style="background-color:rgb(230,141,70); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Private</td></tr>
+   <tr><td style="background-color:rgb(227,176,174); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Joint, Other, Unknown</td></tr>
+</tbody></table>
+</details>
 <p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a></p>
 <h2>GeoJSON</h2>
+<details>
+<summary>Show areas</summary>
 <ul>
 <li><a href="navoffroad/Land%20Use/GeoJSON/Land%20Use%20AZ.geojson">Arizona</a></li>
 <li><a href="navoffroad/Land%20Use/GeoJSON/Land%20Use%20CA%20North-N.geojson">California North-N</a></li>
@@ -80,8 +108,10 @@ GPX and KML files are widely available online through mapping websites, hiking a
 <li><a href="navoffroad/Land%20Use/GeoJSON/Land%20Use%20WY%20North.geojson">Wyoming North</a></li>
 <li><a href="navoffroad/Land%20Use/GeoJSON/Land%20Use%20WY%20South.geojson">Wyoming South</a></li>
 </ul>
-
+</details>
 <h2>PMTiles</h2>
+<details>
+<summary>Show areas</summary>
 <ul>
 <li><a href="navoffroad/Land%20Use/PMTiles/AZ.pmtiles">Arizona</a></li>
 <li><a href="navoffroad/Land%20Use/PMTiles/CA-North-N.pmtiles">California North-N</a></li>
@@ -101,55 +131,60 @@ GPX and KML files are widely available online through mapping websites, hiking a
 <li><a href="navoffroad/Land%20Use/PMTiles/WY-North.pmtiles">Wyoming North</a></li>
 <li><a href="navoffroad/Land%20Use/PMTiles/WY-South.pmtiles">Wyoming South</a></li>
 </ul>
-<h1 id="uswilderness">US wilderness areas GeoJSON files</h1>
+</details>
+<h1 id="uswilderness">US wilderness areas</h1>
+<p>These data provide wilderness areas in GeoJSON format for all states.</p>
 <p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a></p>
+<details>
+<summary>Show states</summary>
 <ul>
-<li><a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson">Alabama Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Alaska%20Wildernesses.geojson">Alaska Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Arizona%20Wildernesses.geojson">Arizona Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Arkansas%20Wildernesses.geojson">Arkansas Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/California%20Wildernesses.geojson">California Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Colorado%20Wildernesses.geojson">Colorado Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Florida%20Wildernesses.geojson">Florida Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Georgia%20Wildernesses.geojson">Georgia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Hawaii%20Wildernesses.geojson">Hawaii Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Idaho%20Wildernesses.geojson">Idaho Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Illinois%20Wildernesses.geojson">Illinois Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Indiana%20Wildernesses.geojson">Indiana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Kentucky%20Wildernesses.geojson">Kentucky Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Louisiana%20Wildernesses.geojson">Louisiana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Maine%20Wildernesses.geojson">Maine Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Massachusetts%20Wildernesses.geojson">Massachusetts Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Michigan%20Wildernesses.geojson">Michigan Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Minnesota%20Wildernesses.geojson">Minnesota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Mississippi%20Wildernesses.geojson">Mississippi Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Missouri%20Wildernesses.geojson">Missouri Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Montana%20Wildernesses.geojson">Montana Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Nebraska%20Wildernesses.geojson">Nebraska Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Nevada%20Wildernesses.geojson">Nevada Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New%20Hampshire%20Wildernesses.geojson">New Hampshire Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New%20Jersey%20Wildernesses.geojson">New Jersey Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New%20Mexico%20Wildernesses.geojson">New Mexico Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/New%20York%20Wildernesses.geojson">New York Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/North%20Carolina%20Wildernesses.geojson">North Carolina Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/North%20Dakota%20Wildernesses.geojson">North Dakota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Ohio%20Wildernesses.geojson">Ohio Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Oklahoma%20Wildernesses.geojson">Oklahoma Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Oregon%20Wildernesses.geojson">Oregon Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Pennsylvania%20Wildernesses.geojson">Pennsylvania Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Puerto%20Rico%20Wildernesses.geojson">Puerto Rico Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/South%20Carolina%20Wildernesses.geojson">South Carolina Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/South%20Dakota%20Wildernesses.geojson">South Dakota Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Tennessee%20Wildernesses.geojson">Tennessee Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Texas%20Wildernesses.geojson">Texas Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Utah%20Wildernesses.geojson">Utah Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Vermont%20Wildernesses.geojson">Vermont Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Virginia%20Wildernesses.geojson">Virginia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Washington%20Wildernesses.geojson">Washington Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/West%20Virginia%20Wildernesses.geojson">West Virginia Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson">Wisconsin Wildernesses.geojson</a></li>
-<li><a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson">Wyoming Wildernesses.geojson</a></li>
+<li><a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson">Alabama</a></li>
+<li><a href="navoffroad/Wilderness/Alaska%20Wildernesses.geojson">Alaska</a></li>
+<li><a href="navoffroad/Wilderness/Arizona%20Wildernesses.geojson">Arizona</a></li>
+<li><a href="navoffroad/Wilderness/Arkansas%20Wildernesses.geojson">Arkansas</a></li>
+<li><a href="navoffroad/Wilderness/California%20Wildernesses.geojson">California</a></li>
+<li><a href="navoffroad/Wilderness/Colorado%20Wildernesses.geojson">Colorado</a></li>
+<li><a href="navoffroad/Wilderness/Florida%20Wildernesses.geojson">Florida</a></li>
+<li><a href="navoffroad/Wilderness/Georgia%20Wildernesses.geojson">Georgia</a></li>
+<li><a href="navoffroad/Wilderness/Hawaii%20Wildernesses.geojson">Hawaii</a></li>
+<li><a href="navoffroad/Wilderness/Idaho%20Wildernesses.geojson">Idaho</a></li>
+<li><a href="navoffroad/Wilderness/Illinois%20Wildernesses.geojson">Illinois</a></li>
+<li><a href="navoffroad/Wilderness/Indiana%20Wildernesses.geojson">Indiana</a></li>
+<li><a href="navoffroad/Wilderness/Kentucky%20Wildernesses.geojson">Kentucky</a></li>
+<li><a href="navoffroad/Wilderness/Louisiana%20Wildernesses.geojson">Louisiana</a></li>
+<li><a href="navoffroad/Wilderness/Maine%20Wildernesses.geojson">Maine</a></li>
+<li><a href="navoffroad/Wilderness/Massachusetts%20Wildernesses.geojson">Massachusetts</a></li>
+<li><a href="navoffroad/Wilderness/Michigan%20Wildernesses.geojson">Michigan</a></li>
+<li><a href="navoffroad/Wilderness/Minnesota%20Wildernesses.geojson">Minnesota</a></li>
+<li><a href="navoffroad/Wilderness/Mississippi%20Wildernesses.geojson">Mississippi</a></li>
+<li><a href="navoffroad/Wilderness/Missouri%20Wildernesses.geojson">Missouri</a></li>
+<li><a href="navoffroad/Wilderness/Montana%20Wildernesses.geojson">Montana</a></li>
+<li><a href="navoffroad/Wilderness/Nebraska%20Wildernesses.geojson">Nebraska</a></li>
+<li><a href="navoffroad/Wilderness/Nevada%20Wildernesses.geojson">Nevada</a></li>
+<li><a href="navoffroad/Wilderness/New%20Hampshire%20Wildernesses.geojson">New Hampshire</a></li>
+<li><a href="navoffroad/Wilderness/New%20Jersey%20Wildernesses.geojson">New Jersey</a></li>
+<li><a href="navoffroad/Wilderness/New%20Mexico%20Wildernesses.geojson">New Mexico</a></li>
+<li><a href="navoffroad/Wilderness/New%20York%20Wildernesses.geojson">New York</a></li>
+<li><a href="navoffroad/Wilderness/North%20Carolina%20Wildernesses.geojson">North Carolina</a></li>
+<li><a href="navoffroad/Wilderness/North%20Dakota%20Wildernesses.geojson">North Dakota</a></li>
+<li><a href="navoffroad/Wilderness/Ohio%20Wildernesses.geojson">Ohio</a></li>
+<li><a href="navoffroad/Wilderness/Oklahoma%20Wildernesses.geojson">Oklahoma</a></li>
+<li><a href="navoffroad/Wilderness/Oregon%20Wildernesses.geojson">Oregon</a></li>
+<li><a href="navoffroad/Wilderness/Pennsylvania%20Wildernesses.geojson">Pennsylvania</a></li>
+<li><a href="navoffroad/Wilderness/Puerto%20Rico%20Wildernesses.geojson">Puerto Rico</a></li>
+<li><a href="navoffroad/Wilderness/South%20Carolina%20Wildernesses.geojson">South Carolina</a></li>
+<li><a href="navoffroad/Wilderness/South%20Dakota%20Wildernesses.geojson">South Dakota</a></li>
+<li><a href="navoffroad/Wilderness/Tennessee%20Wildernesses.geojson">Tennessee</a></li>
+<li><a href="navoffroad/Wilderness/Texas%20Wildernesses.geojson">Texas</a></li>
+<li><a href="navoffroad/Wilderness/Utah%20Wildernesses.geojson">Utah</a></li>
+<li><a href="navoffroad/Wilderness/Vermont%20Wildernesses.geojson">Vermont</a></li>
+<li><a href="navoffroad/Wilderness/Virginia%20Wildernesses.geojson">Virginia</a></li>
+<li><a href="navoffroad/Wilderness/Washington%20Wildernesses.geojson">Washington</a></li>
+<li><a href="navoffroad/Wilderness/West%20Virginia%20Wildernesses.geojson">West Virginia</a></li>
+<li><a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson">Wisconsin</a></li>
+<li><a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson">Wyoming</a></li>
 </ul>
+</details>
 <h1 id="ushistorical">US historical maps</h1>
 <p>You can get historical maps from the <a href="https://livingatlas.arcgis.com/topomapexplorer">Topo Map Explorer</a>. Click the map at your desired location and then select one of the maps displayed in the left sidebar. <i>Right</i> click on the download button and the copy the link. Use the link in the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or other GIS applications.</p>
 <h1 id="usforestservice">US Forest Service</h1>
