@@ -59,7 +59,7 @@
 GPX and KML files are widely available online through mapping websites, hiking and off-road communities, and shared trail databases. Keep in mind that the accuracy and quality of these files can vary, so it's best to review them before use.
 </p>
 <h1 id="uslanduse">US land use files for the western states</h1>
-<p>These data provide color-coded land use for the western states in both GeoJSON and PMTiles format.</p>
+<p>These data provide color-coded land use for the western states in both GeoJSON and PMTiles format. Note that the PMTiles (Protomaps Tiles) format is preferred over GeoJSON for large datasets because only the data needed for the current map view are loaded.</p>
 <details>
 <summary>Show color table</summary>
 <br>
@@ -186,7 +186,8 @@ GPX and KML files are widely available online through mapping websites, hiking a
 </ul>
 </details>
 <h1 id="ushistorical">US historical maps</h1>
-<p>You can get historical maps from the <a href="https://livingatlas.arcgis.com/topomapexplorer">Topo Map Explorer</a>. Click the map at your desired location and then select one of the maps displayed in the left sidebar. <i>Right</i> click on the download button and the copy the link. Use the link in the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or other GIS applications.</p>
+<p>You can get historical maps from the <a href="https://livingatlas.arcgis.com/topomapexplorer">Topo Map Explorer</a>. Click the map at your desired location and then select one of the maps displayed in the left sidebar. <i>Right</i> click on the download button and copy the link, e.g.,<br><br>
+	<code style="font-size: 0.85em; white-space: pre-wrap; word-break: break-all;">https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/NV/NV_Ely_321587_1952_125000_geo.tif</code><br><br> Use the link to import the map into the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or other GIS applications.</p>
 <h1 id="usforestservice">US Forest Service</h1>
 <p>You can download GeoJSON files to import from the categories on the <a href="https://data-usfs.hub.arcgis.com">U.S. Forest Service - Geospatial Data Discovery</a> web page. Use the filters to select your area and the data you need (e.g., name and latitude/longitude). Select the download button and choose the GeoJSON option.</p>
 <h1 id="tms">Tile Map Services</h1>
