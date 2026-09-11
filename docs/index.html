@@ -86,103 +86,464 @@ GPX and KML files are widely available online through mapping websites, hiking a
 </tbody></table>
 </details>
 <p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a></p>
-<h2>GeoJSON</h2>
 <details>
-<summary>Show areas</summary>
-<ul>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20AZ.geojson">Arizona</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-N.geojson">California North-N</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-S.geojson">California North-S</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-N.geojson">California South-N</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-S.geojson">California South-S</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CO%20North.geojson">Colorado North</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20CO%20South.geojson">Colorado South</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20ID.geojson">Idaho</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20MT.geojson">Montana</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20NM.geojson">New Mexico</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20NV.geojson">Nevada</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20OR%20North.geojson">Oregon North</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20OR%20South.geojson">Oregon South</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20UT.geojson">Utah</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20WA.geojson">Washington</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20North.geojson">Wyoming North</a></li>
-<li><a href="navoffroad/Land%20Use/Land%20Use%20WY%20South.geojson">Wyoming South</a></li>
-</ul>
-</details>
-<h2>PMTiles</h2>
-<details>
-<summary>Show areas</summary>
-<ul>
-<li><a href="navoffroad/Land%20Use/PMTiles/AZ.pmtiles">Arizona</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CA-North-N.pmtiles">California North-N</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CA-North-S.pmtiles">California North-S</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CA-South-N.pmtiles">California South-N</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CA-South-S.pmtiles">California South-S</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CO-North.pmtiles">Colorado North</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/CO-South.pmtiles">Colorado South</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/ID.pmtiles">Idaho</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/MT.pmtiles">Montana</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/NM.pmtiles">New Mexico</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/NV.pmtiles">Nevada</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/OR-North.pmtiles">Oregon North</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/OR-South.pmtiles">Oregon South</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/UT.pmtiles">Utah</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/WA.pmtiles">Washington</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/WY-North.pmtiles">Wyoming North</a></li>
-<li><a href="navoffroad/Land%20Use/PMTiles/WY-South.pmtiles">Wyoming South</a></li>
+<summary>Show states / regions</summary>
+<br>
+<ul class="file-list">
+  <li class="file-row">
+    <span class="file-name">Arizona</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20AZ.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20AZ.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">California North-N</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-N.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CA%20North-N.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">California North-S</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CA%20North-S.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CA%20North-S.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">California South-N</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-N.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CA%20South-N.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">California South-S</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CA%20South-S.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CA%20South-S.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Colorado North</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CO%20North.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CO%20North.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Colorado South</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20CO%20South.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20CO%20South.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Idaho</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20ID.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20ID.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Montana</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20MT.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20MT.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">New Mexico</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20NM.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20NM.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Nevada</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20NV.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20NV.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Oregon North</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20OR%20North.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20OR%20North.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Oregon South</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20OR%20South.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20OR%20South.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Utah</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20UT.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20UT.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Washington</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20WA.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20WA.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Wyoming North</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20WY%20North.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20WY%20North.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Wyoming South</span>
+    <div class="file-actions">
+      <a href="navoffroad/Land%20Use/Land%20Use%20WY%20South.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Land%20Use/PMTiles/Land%20Use%20WY%20South.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
 </ul>
 </details>
 <h1 id="uswilderness">US wilderness areas</h1>
 <p>These data provide wilderness areas in GeoJSON format for all states.</p>
+<details>
+<summary>Show color table</summary>
+<br>
+<table>
+   <tbody>
+   <tr><td style="background-color:#ffff00; border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Bureau of Land Management</td></tr>
+   <tr><td style="background-color:#ffaa00; border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Fish and Wildlife Service</td></tr>
+   <tr><td style="background-color:#38a800; border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Forest Service</td></tr>
+   <tr><td style="background-color:#a900e6; border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">National Park Service</td></tr>
+</tbody></table>
+</details>
 <p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a></p>
 <details>
 <summary>Show states</summary>
-<ul>
-<li><a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson">Alabama</a></li>
-<li><a href="navoffroad/Wilderness/Alaska%20Wildernesses.geojson">Alaska</a></li>
-<li><a href="navoffroad/Wilderness/Arizona%20Wildernesses.geojson">Arizona</a></li>
-<li><a href="navoffroad/Wilderness/Arkansas%20Wildernesses.geojson">Arkansas</a></li>
-<li><a href="navoffroad/Wilderness/California%20Wildernesses.geojson">California</a></li>
-<li><a href="navoffroad/Wilderness/Colorado%20Wildernesses.geojson">Colorado</a></li>
-<li><a href="navoffroad/Wilderness/Florida%20Wildernesses.geojson">Florida</a></li>
-<li><a href="navoffroad/Wilderness/Georgia%20Wildernesses.geojson">Georgia</a></li>
-<li><a href="navoffroad/Wilderness/Hawaii%20Wildernesses.geojson">Hawaii</a></li>
-<li><a href="navoffroad/Wilderness/Idaho%20Wildernesses.geojson">Idaho</a></li>
-<li><a href="navoffroad/Wilderness/Illinois%20Wildernesses.geojson">Illinois</a></li>
-<li><a href="navoffroad/Wilderness/Indiana%20Wildernesses.geojson">Indiana</a></li>
-<li><a href="navoffroad/Wilderness/Kentucky%20Wildernesses.geojson">Kentucky</a></li>
-<li><a href="navoffroad/Wilderness/Louisiana%20Wildernesses.geojson">Louisiana</a></li>
-<li><a href="navoffroad/Wilderness/Maine%20Wildernesses.geojson">Maine</a></li>
-<li><a href="navoffroad/Wilderness/Massachusetts%20Wildernesses.geojson">Massachusetts</a></li>
-<li><a href="navoffroad/Wilderness/Michigan%20Wildernesses.geojson">Michigan</a></li>
-<li><a href="navoffroad/Wilderness/Minnesota%20Wildernesses.geojson">Minnesota</a></li>
-<li><a href="navoffroad/Wilderness/Mississippi%20Wildernesses.geojson">Mississippi</a></li>
-<li><a href="navoffroad/Wilderness/Missouri%20Wildernesses.geojson">Missouri</a></li>
-<li><a href="navoffroad/Wilderness/Montana%20Wildernesses.geojson">Montana</a></li>
-<li><a href="navoffroad/Wilderness/Nebraska%20Wildernesses.geojson">Nebraska</a></li>
-<li><a href="navoffroad/Wilderness/Nevada%20Wildernesses.geojson">Nevada</a></li>
-<li><a href="navoffroad/Wilderness/New%20Hampshire%20Wildernesses.geojson">New Hampshire</a></li>
-<li><a href="navoffroad/Wilderness/New%20Jersey%20Wildernesses.geojson">New Jersey</a></li>
-<li><a href="navoffroad/Wilderness/New%20Mexico%20Wildernesses.geojson">New Mexico</a></li>
-<li><a href="navoffroad/Wilderness/New%20York%20Wildernesses.geojson">New York</a></li>
-<li><a href="navoffroad/Wilderness/North%20Carolina%20Wildernesses.geojson">North Carolina</a></li>
-<li><a href="navoffroad/Wilderness/North%20Dakota%20Wildernesses.geojson">North Dakota</a></li>
-<li><a href="navoffroad/Wilderness/Ohio%20Wildernesses.geojson">Ohio</a></li>
-<li><a href="navoffroad/Wilderness/Oklahoma%20Wildernesses.geojson">Oklahoma</a></li>
-<li><a href="navoffroad/Wilderness/Oregon%20Wildernesses.geojson">Oregon</a></li>
-<li><a href="navoffroad/Wilderness/Pennsylvania%20Wildernesses.geojson">Pennsylvania</a></li>
-<li><a href="navoffroad/Wilderness/Puerto%20Rico%20Wildernesses.geojson">Puerto Rico</a></li>
-<li><a href="navoffroad/Wilderness/South%20Carolina%20Wildernesses.geojson">South Carolina</a></li>
-<li><a href="navoffroad/Wilderness/South%20Dakota%20Wildernesses.geojson">South Dakota</a></li>
-<li><a href="navoffroad/Wilderness/Tennessee%20Wildernesses.geojson">Tennessee</a></li>
-<li><a href="navoffroad/Wilderness/Texas%20Wildernesses.geojson">Texas</a></li>
-<li><a href="navoffroad/Wilderness/Utah%20Wildernesses.geojson">Utah</a></li>
-<li><a href="navoffroad/Wilderness/Vermont%20Wildernesses.geojson">Vermont</a></li>
-<li><a href="navoffroad/Wilderness/Virginia%20Wildernesses.geojson">Virginia</a></li>
-<li><a href="navoffroad/Wilderness/Washington%20Wildernesses.geojson">Washington</a></li>
-<li><a href="navoffroad/Wilderness/West%20Virginia%20Wildernesses.geojson">West Virginia</a></li>
-<li><a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson">Wisconsin</a></li>
-<li><a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson">Wyoming</a></li>
+<br>
+<ul class="file-list">
+  <li class="file-row">
+    <span class="file-name">Alabama</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Alabama%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Alabama%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Alaska</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Alaska%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Alaska%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Arizona</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Arizona%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Arizona%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Arkansas</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Arkansas%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Arkansas%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">California</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/California%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/California%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Colorado</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Colorado%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Colorado%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Florida</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Florida%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Florida%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Georgia</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Georgia%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Georgia%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Hawaii</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Hawaii%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Hawaii%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Idaho</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Idaho%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Idaho%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Illinois</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Illinois%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Illinois%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Indiana</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Indiana%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Indiana%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Kentucky</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Kentucky%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Kentucky%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Louisiana</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Louisiana%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Louisiana%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Maine</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Maine%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Maine%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Massachusetts</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Massachusetts%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Massachusetts%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Michigan</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Michigan%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Michigan%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Minnesota</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Minnesota%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Minnesota%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Mississippi</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Mississippi%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Mississippi%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Missouri</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Missouri%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Missouri%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Montana</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Montana%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Montana%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Nebraska</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Nebraska%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Nebraska%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Nevada</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Nevada%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Nevada%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">New Hampshire</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/New%20Hampshire%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/New%20Hampshire%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">New Jersey</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/New%20Jersey%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/New%20Jersey%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">New Mexico</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/New%20Mexico%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/New%20Mexico%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">New York</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/New%20York%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/New%20York%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">North Carolina</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/North%20Carolina%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/North%20Carolina%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">North Dakota</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/North%20Dakota%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/North%20Dakota%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Ohio</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Ohio%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Ohio%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Oklahoma</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Oklahoma%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Oklahoma%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Oregon</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Oregon%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Oregon%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Pennsylvania</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Pennsylvania%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Pennsylvania%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Puerto Rico</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Puerto%20Rico%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Puerto%20Rico%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">South Carolina</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/South%20Carolina%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/South%20Carolina%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">South Dakota</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/South%20Dakota%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/South%20Dakota%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Tennessee</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Tennessee%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Tennessee%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Texas</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Texas%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Texas%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Utah</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Utah%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Utah%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Vermont</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Vermont%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Vermont%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Virginia</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Virginia%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Virginia%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Washington</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Washington%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Washington%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">West Virginia</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/West%20Virginia%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/West%20Virginia%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Wisconsin</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Wisconsin%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Wisconsin%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Wyoming</span>
+    <div class="file-actions">
+      <a href="navoffroad/Wilderness/Wyoming%20Wildernesses.geojson" class="dl-btn" download>GeoJSON</a>
+      <a href="navoffroad/Wilderness/PMTiles/Wyoming%20Wildernesses.pmtiles" class="dl-btn" download>PMTiles</a>
+    </div>
+  </li>
 </ul>
 </details>
 <h1 id="ushistorical">US historical maps</h1>
