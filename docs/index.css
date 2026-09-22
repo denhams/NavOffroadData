@@ -82,12 +82,21 @@
 	  border-bottom: 1px solid #eee;
 	}
 
+	.file-row.top {
+	  align-items: flex-start;
+
+	}
+
 	.file-row:last-child {
 	  border-bottom: none;
 	}
 
 	.file-row:nth-child(even) {
 	  background: #fafafa;
+	}
+
+	.converter-list .file-row:nth-child(even) {
+	  background: transparent;
 	}
 
 	.file-name {
@@ -110,6 +119,10 @@
 	  flex-shrink: 0;
 	}
 
+	.file-actions.vertical {
+	  flex-direction: column;
+	}
+
 	.dl-btn {
 	  font-size: 12px;
 	  font-weight: 600;
@@ -118,8 +131,18 @@
 	  border-radius: 6px;
 	  text-decoration: none;
 	  color: #333;
+	  display: inline-block;
+	  min-width: 100px;
+	  text-align: center;
+	  box-sizing: border-box;
 	}
 
 	.dl-btn:hover {
 	  background: #f2f2f2;
+	}
+
+	@media (max-width: 480px) {
+	  #navOffroadConverter {
+	    width: 100%;
+	  }
 	}

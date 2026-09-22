@@ -45,15 +45,13 @@
         <li>
           <a href="#tms">Tile Map Services</a>
         </li>
+		<li>
+          <a href="#converter">GIS format converter</a>
         <li>
           <a href="#gis">GIS test files</a>
         </li>
       </ul>
-      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>. This dataset is a compilation derived from public-domain sources. The underlying source data remain public domain. This license applies only to the compilation, formatting, and curation.<br><br>
-		  &#169; Stephen Denham, 2023 - <script>
-          document.write(new Date().getFullYear());
-        </script>
-      </p>
+      <p>&#169; Stephen Denham, 2023 - <script>document.write(new Date().getFullYear());</script></p>
 <h1 id="gpxkml">GPX and KML</h1>
 <p>
 GPX and KML files are widely available online through mapping websites, hiking and off-road communities, and shared trail databases. Keep in mind that the accuracy and quality of these files can vary, so it's best to review them before use.
@@ -85,7 +83,7 @@ GPX and KML files are widely available online through mapping websites, hiking a
    <tr><td style="background-color:rgb(227,176,174); border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">Joint, Other, Unknown</td></tr>
 </tbody></table>
 </details>
-<p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a></p>
+<p>Attribution: <a href="https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview">PAD-US, U.S. Geological Survey</a>. Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>. This dataset is a compilation derived from public-domain sources. The underlying source data remain public domain. This license applies only to the compilation, formatting, and curation.</p>
 <details>
 <summary>Show states / regions</summary>
 <br>
@@ -224,7 +222,7 @@ GPX and KML files are widely available online through mapping websites, hiking a
    <tr><td style="background-color:#a900e6; border: 1px solid white;">&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="padding-left: 10px;">National Park Service</td></tr>
 </tbody></table>
 </details>
-<p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a></p>
+<p>Attribution: <a href="https://wilderness.net/">Wilderness Connect</a>. Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en">CC BY-NC 4.0</a>. This dataset is a compilation derived from public-domain sources. The underlying source data remain public domain. This license applies only to the compilation, formatting, and curation.</p>
 <details>
 <summary>Show states</summary>
 <br>
@@ -549,6 +547,7 @@ GPX and KML files are widely available online through mapping websites, hiking a
 <h1 id="ushistorical">US historical maps</h1>
 <p>You can get historical maps from the <a href="https://livingatlas.arcgis.com/topomapexplorer">Topo Map Explorer</a>. Click the map at your desired location and then select one of the maps displayed in the left sidebar. <i>Right</i> click on the download button and copy the link, e.g.,<br><br>
 	<code style="font-size: 0.85em; white-space: pre-wrap; word-break: break-all;">https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/NV/NV_Ely_321587_1952_125000_geo.tif</code><br><br> Use the link to import the map into the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad&reg; and iPhone&reg;</a> app, <a href="https://app.navoffroad.com">NavOffroad Planner</a> or other GIS applications.</p>
+<p>If you download the GeoTIFF (or GeoPDF) file, then use the <a href="#converter">NavOffroadConverter</a> to convert it to a PMTiles file.</p>
 <h1 id="usforestservice">US Forest Service</h1>
 <p>You can download GeoJSON files to import from the categories on the <a href="https://data-usfs.hub.arcgis.com">U.S. Forest Service - Geospatial Data Discovery</a> web page. Use the filters to select your area and the data you need (e.g., name and latitude/longitude). Select the download button and choose the GeoJSON option.</p>
 <h1 id="tms">Tile Map Services</h1>
@@ -558,6 +557,31 @@ GPX and KML files are widely available online through mapping websites, hiking a
 <ul>
 <li><a href="navoffroad/Tile%20Map%20Services/Open%20Street%20Map.json">Open Street Map.json</a></li>
 <li><a href="navoffroad/Tile%20Map%20Services/US%20Topo.json">US Topo.json</a></li>
+</ul>
+<h1 id="converter">GIS format converter</h1>
+<p>You can use the NavOffroadConverter desktop application to convert GeoPDF and GeoTIFF files to PMTiles. Copy the resulting PMTiles file to your device for offline use in the <a href="https://apps.apple.com/app/navoffroad/id6448929243">NavOffroad iPad and iPhone</a> app.<br><br>
+<img id="navOffroadConverter" src="navOffroadConverter.png" alt="NavOffroadConverter">
+<br><br>Download the app installer for your computer:</p>
+<ul class="file-list converter-list">
+  <li class="file-row">
+    <span class="file-name">Mac</span>
+    <div class="file-actions">
+      <a href="https://github.com/denhams/NavOffroadData/releases/download/v1.0.0/NavOffroadConverter-1.0.0-Installer.dmg" class="dl-btn" download>Apple Silicon</a>
+    </div>
+  </li>
+  <li class="file-row">
+    <span class="file-name">Windows</span>
+    <div class="file-actions">
+      <a href="https://github.com/denhams/NavOffroadData/releases/download/v1.0.0/NavOffroadConverter-1.0.0-windows-x64-Setup.exe" class="dl-btn" download>x86_64</a>
+    </div>
+  </li>
+  <li class="file-row top">
+    <span class="file-name">Linux</span>
+    <div class="file-actions vertical">
+      <a href="https://github.com/denhams/NavOffroadData/releases/download/v1.0.0/NavOffroadConverter-1.0.0-x86_64.AppImage" class="dl-btn" download>x86_64</a>
+      <a href="https://github.com/denhams/NavOffroadData/releases/download/v1.0.0/NavOffroadConverter-1.0.0-aarch64.AppImage" class="dl-btn" download>ARM64</a>
+    </div>
+  </li>
 </ul>
 <h1 id="gis">GIS test files</h1>
 <ul>
