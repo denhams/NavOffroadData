@@ -71,7 +71,7 @@
 	  border: 1px solid #e2e2e2;
 	  border-radius: 8px;
 	  overflow: hidden;
-	  max-width: 400px;
+	  max-width: 500px;
 	}
 
 	.file-row {
@@ -123,6 +123,26 @@
 	  flex-direction: column;
 	}
 
+	.link-list .dl-group {
+	  flex: 1;
+	  min-width: 0;
+	}
+
+	.link-list .dl-btn {
+	  width: 220px;
+	  text-align: left;
+	}
+
+	.file-list.link-list {
+	  max-width: 250px;
+	}
+
+	.file-list.converter-list { max-width: 260px; }
+
+	.no-stripe .file-row:nth-child(even) {
+	  background: transparent;
+	}
+
 	.dl-btn {
 	  font-size: 12px;
 	  font-weight: 600;
@@ -139,6 +159,12 @@
 
 	.dl-btn:hover {
 	  background: #f2f2f2;
+	}
+
+	.dl-group {
+	  display: inline-flex;
+	  align-items: center;
+	  gap: 4px;
 	}
 
 	@media (max-width: 480px) {
@@ -180,3 +206,27 @@
 	  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 	}
 
+	.copy-btn {
+	  display: inline-flex;
+	  align-items: center;
+	  justify-content: center;
+	  width: 26px;
+	  height: 26px;
+	  padding: 0;
+	  border: none;
+	  border-radius: 4px;
+	  background: transparent;
+	  color: #888;
+	  cursor: pointer;
+	}
+	.copy-btn svg {
+	  width: 14px;
+	  height: 14px;
+	  fill: none;
+	  stroke: currentColor;
+	  stroke-width: 2;
+	  stroke-linecap: round;
+	  stroke-linejoin: round;
+	}
+	.copy-btn:hover { color: #444; background: #eee; }
+	.copy-btn.copied { color: #444; background: transparent; }
